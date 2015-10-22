@@ -6,10 +6,10 @@
  * Time: 1:29 PM
  */
 
-namespace netcare;
+namespace Netcare;
 
 
-class passbuilder
+class Passbuilder
 {
 
     /**
@@ -62,3 +62,14 @@ class passbuilder
     }
 
 }
+
+$words = array("duck", "mom", "tom", "henry", "stephen", "albert");
+$prefix = TRUE;
+$schar = "@";
+$suffix = TRUE;
+$cap = TRUE;
+
+$pass = new Passbuilder();
+$final = $pass->password_builder($words, $schar, $prefix, $suffix, $cap);
+
+echo $final;
