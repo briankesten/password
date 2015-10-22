@@ -63,6 +63,9 @@ class Passbuilder
 
 }
 
+//example
+
+/*
 $words = array("duck", "mom", "tom", "henry", "stephen", "albert");
 $prefix = TRUE;
 $schar = "@";
@@ -73,3 +76,5 @@ $pass = new Passbuilder();
 $final = $pass->password_builder($words, $schar, $prefix, $suffix, $cap);
 
 echo $final;
+
+*/
